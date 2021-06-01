@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(90, 90, 92);
+}
+
+.app__right{
+  margin-top: 3.5rem;
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #5d5d5e;
+  padding: 20px;
+}
+
+.app__dropdown {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+
+.app__header > h1 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
+
+.app__stats {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left {
+  flex: 0.9;
+}
+.app_global > h3 {
+  text-align: center;
+  color: rgb(87, 84, 84);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__information > h3 {
+  text-align: center;
+  color: rgb(87, 84, 84);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer__card a {
+  color: black;
+}
+.footer__card {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer__card img{
+  margin-top: 1rem;
+  margin-left: 5px;
+  width: 1.5rem;
+}
+.app__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
